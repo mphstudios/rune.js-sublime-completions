@@ -13,3 +13,7 @@ This package also includes code completions and snippets for the [Rune.js plugin
  
 For more information [about Rune.js](https://runemadsen.github.io/rune.js/about.html) see the [documentation](https://runemadsen.github.io/rune.js/documentation.html) and [examples](http://printingcode.runemadsen.com/examples/).
 
+## Installation
+
+Install the [Rune.js](https://packagecontrol.io/packages/Rune.js) Sublime Text package via [Package Control](https://packagecontrol.io/)
+

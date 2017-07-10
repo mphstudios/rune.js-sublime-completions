@@ -1,0 +1,5 @@
+rune.js-sublime-completions
+---------------------------
+
+Package major version corresponds to the major version of Rune.js releases, https://github.com/runemadsen/rune.js/releases
+

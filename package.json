@@ -1,0 +1,28 @@
+{
+  "name": "Rune.js Completions",
+  "version": "1.0.0",
+  "description": "Rune.js package for Sublime Text 3",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mphstudios/rune.js-sublime-completions.git"
+  },
+  "keywords": [
+    "Bezier.js",
+    "Color.js",
+    "graphic design systems",
+    "JavaScript",
+    "Rune.js",
+    "Scalable Vector Graphics",
+    "Sublime Text",
+    "sublime-completions",
+    "sublime-snippets",
+    "SVG",
+    "Virtual-DOM"
+  ],
+  "author": "mph",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mphstudios/rune.js-sublime-completions/issues"
+  },
+  "homepage": "https://github.com/mphstudios/rune.js-sublime-completions#readme"
+}
