@@ -1,0 +1,39 @@
+{
+  "scope": "source.js",
+  "completions":
+  [
+    // Rune.Polygon
+    {
+      "trigger": "Polygon\tnew Rune.Polygon(x, y)",
+      "contents": "new Rune.Polygon(${1:x}, ${2:y})$0"
+    },
+    {
+      "trigger": "lineTo\tRune.Polygon().lineTo(x, y)",
+      "contents": "lineTo(${1:x}, ${2:y})$0"
+    },
+    {
+      "trigger": "length\tRune.Polygon().length()",
+      "contents": "length()"
+    },
+    {
+      "trigger": "vectorAt\tRune.Polygon().vectorAt(scalar)",
+      "contents": "vectorAt(${1:scalar})$0"
+    },
+    {
+      "trigger": "vectorAtLength\tRune.Polygon().vectorAtLength(length)",
+      "contents": "vectorAtLength(${1:length})$0"
+    },
+    {
+      "trigger": "bounds\tRune.Polygon().bounds()",
+      "contents": "bounds()"
+    },
+    {
+      "trigger": "centroid\tRune.Polygon().centroid()",
+      "contents": "centroid()"
+    },
+    {
+      "trigger": "contains\tRune.Polygon().contains(x, y)",
+      "contents": "contains(${1:x}, ${2:y})$0"
+    }
+  ]
+}

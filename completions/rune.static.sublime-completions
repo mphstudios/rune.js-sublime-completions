@@ -1,0 +1,23 @@
+{
+  "scope": "source.js",
+  "completions":
+  [
+    // Rune static helpers
+    {
+      "trigger": "random\tRune.random(low,high)",
+      "contents": "Rune(${1:low}, ${2:high})$0"
+    },
+    {
+      "trigger": "degrees\tRune.degrees(radians)",
+      "contents": "Rune.degrees(${1:radians})$0"
+    },
+    {
+      "trigger": "radians\tRune.radians(degrees)",
+      "contents": "Rune.radians(${1:degrees})$0"
+    },
+    {
+      "trigger": "map\tRune.map(val, start1, stop1, start2, stop2)",
+      "contents": "Rune.map(${1:val}, ${2:start1}, ${3:stop1}, ${4:start2}, ${5:stop2})$0"
+    }
+  ]
+}

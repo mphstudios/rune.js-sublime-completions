@@ -1,0 +1,21 @@
+<snippet>
+    <content><![CDATA[
+new Rune.Grid({
+  x: ${1:integer},
+  y: ${2:integer},
+  columns: ${3:integer},
+  rows: ${4:integer},
+  gutterWidth: ${5:integer},
+  gutterHeight: ${6:integer},
+  gutter: ${7:integer},
+  moduleWidth: ${8:integer},
+  moduleHeight: ${9:integer},
+  width: ${10:integer},
+  height: ${11:integer}
+})
+$0
+]]></content>
+    <tabTrigger>Rune.Grid</tabTrigger>
+    <scope>source.js</scope>
+    <description>new Rune.Grid({...})</description>
+</snippet>

@@ -1,0 +1,15 @@
+{
+  "scope": "source.js",
+  "completions":
+  [
+    // Rune.Circle
+    {
+      "trigger": "Circle\tnew Rune.Circle(x, y, radius)",
+      "contents": "new Rune.Circle(${1:x}, ${2:y}, ${3:radius})$0"
+    },
+    {
+      "trigger": "radius\tradius(length, relative)",
+      "contents": "radius(${1:length}, ${2:relative})$0"
+    }
+  ]
+}

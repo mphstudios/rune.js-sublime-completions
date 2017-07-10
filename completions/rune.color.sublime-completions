@@ -1,0 +1,216 @@
+{
+  "scope": "source.js",
+  "completions":
+  [
+    // Rune.Color
+    {
+      "trigger": "Color\tnew Rune.Color(...)",
+      "contents": "new Rune.Color(${1})$0"
+    },
+
+    // Getters
+    {
+      "trigger": "rgb\tRune.Color().rgb()",
+      "contents": "rgb()"
+    },
+    {
+      "trigger": "hsv\tRune.Color().hsv()",
+      "contents": "hsv()"
+    },
+    {
+      "trigger": "hsl\tRune.Color().hsl()",
+      "contents": "hsl()"
+    },
+    {
+      "trigger": "hwb\tRune.Color().hwb()",
+      "contents": "hwb()"
+    },
+    {
+      "trigger": "cmyk\tRune.Color().cmyk()",
+      "contents": "cmyk()"
+    },
+    {
+      "trigger": "rgbArray\tRune.Color().rgbArray()",
+      "contents": "rgbArray()"
+    },
+    {
+      "trigger": "Color\tRune.Color().hsvArray()",
+      "contents": "hsvArray()"
+    },
+    {
+      "trigger": "hslArray\tRune.Color().hslArray()",
+      "contents": "hslArray()"
+    },
+    {
+      "trigger": "hwbArray\tRune.Color().hwbArray()",
+      "contents": "hwbArray()"
+    },
+    {
+      "trigger": "cmykArray\tRune.Color().cmykArray()",
+      "contents": "cmykArray()"
+    },
+
+    // Manipulate
+    {
+      "trigger": "negate\tRune.Color().negate()",
+      "contents": "negate()"
+    },
+    {
+      "trigger": "lighten\tRune.Color().lighten(ratio)",
+      "contents": "lighten(${1:ratio})$0"
+    },
+    {
+      "trigger": "darken\tRune.Color().darken(ratio)",
+      "contents": "darken(${1:ratio})$0"
+    },
+    {
+      "trigger": "saturate\tRune.Color().saturate(ratio)",
+      "contents": "saturate(${1:ratio})$0"
+    },
+    {
+      "trigger": "desaturate\tRune.Color().desaturate(ratio)",
+      "contents": "desaturate(${1:ratio})$0"
+    },
+    {
+      "trigger": "greyscale\tRune.Color().greyscale()",
+      "contents": "greyscale()"
+    },
+    {
+      "trigger": "whiten\tRune.Color().whiten(ratio)",
+      "contents": "whiten(${1:ratio})$0"
+    },
+    {
+      "trigger": "blacken\tRune.Color().blacken(ratio)",
+      "contents": "blacken(${1:ratio})$0"
+    },
+    {
+      "trigger": "clearer\tRune.Color().clearer(ratio)",
+      "contents": "clearer(${1:ratio})$0"
+    },
+    {
+      "trigger": "opaquer\tRune.Color().opaquer(ratio)",
+      "contents": "opaquer(${1:ratio})$0"
+    },
+    {
+      "trigger": "rotate\tRune.Color().rotate(degrees)",
+      "contents": "rotate(${1:degrees})$0"
+    },
+    {
+      "trigger": "mix\tRune.Color().mix(Color, weight)",
+      "contents": "mix(${1:Color}, ${2:weight})$0"
+    },
+
+    // Manipulation RGBalpha
+    {
+      "trigger": "red\tRune.Color().red(val)",
+      "contents": "red(${1:val})"
+    },
+    {
+      "trigger": "green\tRune.Color().green(val)",
+      "contents": "green(${1:val})"
+    },
+    {
+      "trigger": "blue\tRune.Color().blue(val)",
+      "contents": "blue(${1:val})"
+    },
+    {
+      "trigger": "alpha\tRune.Color().alpha(val)",
+      "contents": "alpha(${1:val})"
+    },
+
+    // Manipulation HSL/HSV/HWB
+    {
+      "trigger": "hue\tRune.Color().hue(val)",
+      "contents": "hue(${1:val})"
+    },
+    {
+      "trigger": "saturation\tRune.Color().saturation(val)",
+      "contents": "saturation(${1:val})"
+    },
+    {
+      "trigger": "lightness\tRune.Color().lightness(val)",
+      "contents": "lightness(${1:val})"
+    },
+    {
+      "trigger": "saturationv Rune.Color().saturationv(val)",
+      "contents": "saturationv(${1:val})"
+    },
+    {
+      "trigger": "whiteness Rune.Color().whiteness(val)",
+      "contents": "whiteness(${1:val})"
+    },
+    {
+      "trigger": "blackness Rune.Color().blackness(val)",
+      "contents": "blackness(${1:val})"
+    },
+    {
+      "trigger": "value Rune.Color().value(val)",
+      "contents": "value(${1:val})"
+    },
+
+    // Manipulation CMYK
+    {
+      "trigger": "cyan	Rune.Color().cyan(val)",
+      "contents": "cyan(${1:val})"
+    },
+    {
+      "trigger": "magenta	Rune.Color().magenta(val)",
+      "contents": "magenta(${1:val})"
+    },
+    {
+      "trigger": "yellow	Rune.Color().yellow(val)",
+      "contents": "yellow(${1:val})"
+    },
+    {
+      "trigger": "black	Rune.Color().black(val)",
+      "contents": "black(${1:val})"
+    },
+
+    // Luminosity
+    {
+      "trigger": "luminosity\tRune.Color().luminosity()",
+      "contents": "luminosity()"
+    },
+    {
+      "trigger": "contrast\tRune.Color().contrast(Color)",
+      "contents": "contrast(${1:Color})$0"
+    },
+    {
+      "trigger": "level\tRune.Color().level(Color)",
+      "contents": "level(${1:Color})$0"
+    },
+    {
+      "trigger": "light\tRune.Color().light()",
+      "contents": "light()"
+    },
+    {
+      "trigger": "dark\tRune.Color().dark()",
+      "contents": "dark()"
+    },
+
+    {
+      "trigger": "toJSON\tRune.Color().toJSON()",
+      "contents": "toJSON()"
+    },
+    {
+      "trigger": "copy\tRune.Color().copy()",
+      "contents": "copy()"
+    },
+    {
+      "trigger": "getValues\tRune.Color().getValues(space)",
+      "contents": "getValues(${1:space})$0"
+    },
+    {
+      "trigger": "setValues\tRune.Color().setValues(space, vals)",
+      "contents": "setValues(${1:space}, ${2:vals})$0"
+    },
+    {
+      "trigger": "setSpace\tRune.Color().setSpace(space, args)",
+      "contents": "setSpace(${1:space}, ${2:args})$0"
+    },
+    {
+      "trigger": "setChannel\tRune.Color().setChannel(space, index, val)",
+      "contents": "setChannel(${1:space}, ${2:index}, ${3:val})$0"
+    }
+  ]
+}

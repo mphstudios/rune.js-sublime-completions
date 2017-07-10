@@ -1,0 +1,19 @@
+{
+  "scope": "source.js",
+  "completions":
+  [
+    // Rune.Ellipse
+    {
+      "trigger": "Ellipse\tnew Rune.Ellipse(x, y, width, height)",
+      "contents": "new Rune.Ellipse(${1:x}, ${2:y}, ${3:width}, ${4:height})$0"
+    },
+    {
+      "trigger": "width\twidth(num, relative)",
+      "contents": "width(${1:num}, ${2:relative})$0"
+    },
+    {
+      "trigger": "height\theight(num, relative)",
+      "contents": "height(${1:num}, ${2:relative})$0"
+    }
+  ]
+}

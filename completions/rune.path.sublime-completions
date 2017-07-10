@@ -1,0 +1,47 @@
+{
+  "scope": "source.js",
+  "completions":
+  [
+    // Rune.Path
+    {
+      "trigger": "Path\tnew Rune.Path(x, y)",
+      "contents": "new Rune.Path(${1:x}, ${2:y})$0"
+    },
+    {
+      "trigger": "moveTo\tRune.Path().moveTo(x, y)",
+      "contents": "moveTo(${1:x}, ${2:y})$0"
+    },
+    {
+      "trigger": "lineTo\tRune.Path().lineTo(x, y)",
+      "contents": "lineTo(${1:x}, ${2:y})$0"
+    },
+    {
+      "trigger": "curveTo\tRune.Path().curveTo(...)",
+      "contents": "curveTo(${1})$0"
+    },
+    {
+      "trigger": "closePath\tRune.Path().closePath()",
+      "contents": "closePath()"
+    },
+    {
+      "trigger": "subpaths\tRune.Path().subpaths(parent)",
+      "contents": "subpaths(${1:parent})$0"
+    },
+    {
+      "trigger": "length\tRune.Path().length()",
+      "contents": "length()"
+    },
+    {
+      "trigger": "vectorAt\tRune.Path().vectorAt(scalar)",
+      "contents": "vectorAt(${1:scalar})$0"
+    },
+    {
+      "trigger": "vectorAtLength\tRune.Path().vectorAtLength(length)",
+      "contents": "vectorAtLength(${1:length})$0"
+    },
+    {
+      "trigger": "fillRule\tRune.Path().fillRule(type)",
+      "contents": "fillRule(${1:type})$0"
+    }
+  ]
+}

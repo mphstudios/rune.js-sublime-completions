@@ -1,0 +1,27 @@
+{
+  "scope": "source.js",
+  "completions":
+  [
+    // Rune.Group
+    {
+      "trigger": "Grid\tnew Rune.Group(x, y)",
+      "contents": "new Rune.Group(${1:x}, ${2:y})$0"
+    },
+    {
+      "trigger": "add\tRune.Group().add(child)",
+      "contents": "add(${1:child})$0"
+    },
+    {
+      "trigger": "remove\tRune.Group().remove(child)",
+      "contents": "remove(${1:child})$0"
+    },
+    {
+      "trigger": "copy\tRune.Group().copy()",
+      "contents": "copy()"
+    },
+    {
+      "trigger": "scale\tRune.Group().scale(scalar)",
+      "contents": "scale(${1:scalar})$0"
+    }
+  ]
+}

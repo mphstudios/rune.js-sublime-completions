@@ -1,0 +1,23 @@
+{
+  "scope": "source.js",
+  "completions":
+  [
+    // Rune.Pixels
+    {
+      "trigger": "Pixels\tRune.Pixels(url)",
+      "contents": "new Rune.Pixels(${1:url})$0"
+    },
+    {
+      "trigger": "load\tRune.Pixels().load(callback)",
+      "contents": "load(${1:callback})$0"
+    },
+    {
+      "trigger": "pixels\tRune.Pixels().pixels[i]",
+      "contents": "pixels[${1:index}]$0"
+    },
+    {
+      "trigger": "get\tRune.Pixels().get(imgX, imgY)",
+      "contents": "get(${1:imgX}, ${2:imgY})$0"
+    }
+  ]
+}

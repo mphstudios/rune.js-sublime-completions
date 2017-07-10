@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+new Rune({
+  container: ${1:element},
+  debug: ${2:false},
+  frameRate: ${3:number},
+  height: ${4:number},
+  width: ${5:number}
+})
+$0
+]]></content>
+    <tabTrigger>Rune</tabTrigger>
+    <scope>source.js</scope>
+    <description>new Rune({...})</description>
+</snippet>

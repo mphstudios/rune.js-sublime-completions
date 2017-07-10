@@ -1,0 +1,75 @@
+{
+  "scope": "source.js",
+  "completions":
+  [
+    // Rune.Vector
+    {
+      "trigger": "Vector\tnew Rune.Vector(x,y)",
+      "contents": "new Rune.Vector(${1:x}, ${2:y})$0"
+    },
+    {
+      "trigger": "set\tRune.Vector().set(x,y)",
+      "contents": "set(${1:x}, ${2:y})$0"
+    },
+    {
+      "trigger": "add\tRune.Vector().add(vector)",
+      "contents": "add(${1:vector})$0"
+    },
+    {
+      "trigger": "sub\tRune.Vector().sub(vector)",
+      "contents": "sub(${1:vector})$0"
+    },
+    {
+      "trigger": "multiply\tRune.Vector().multiply(vector)",
+      "contents": "multiply(${1:vector})$0"
+    },
+    {
+      "trigger": "divide\tRune.Vector().divide(vector)",
+      "contents": "divide(${1:vector})$0"
+    },
+    {
+      "trigger": "distance\tRune.Vector().distance(vector)",
+      "contents": "distance(${1:vector})$0"
+    },
+    {
+      "trigger": "distanceSquared\tRune.Vector().distanceSquared(vector)",
+      "contents": "distanceSquared(${1:vector})$0"
+    },
+    {
+      "trigger": "lerp\tRune.Vector().lerp(vector, scalar)",
+      "contents": "lerp(${1:vector}, ${2:scalar})$0"
+    },
+    {
+      "trigger": "dot\tRune.Vector().dot(vector)",
+      "contents": "dot(${1:vector})$0"
+    },
+    {
+      "trigger": "length\tRune.Vector().length()",
+      "contents": "length()"
+    },
+    {
+      "trigger": "lengthSquare\tRune.Vector().lengthSquare()",
+      "contents": "lengthSquare()"
+    },
+    {
+      "trigger": "normalize\tRune.Vector().normalize()",
+      "contents": "normalize()"
+    },
+    {
+      "trigger": "rotation\tRune.Vector().rotation()",
+      "contents": "rotation()"
+    },
+    {
+      "trigger": "rotate\tRune.Vector().rotate(deg)",
+      "contents": "rotate(${1:deg})$0"
+    },
+    {
+      "trigger": "copy\tRune.Vector().copy()",
+      "contents": "copy()"
+    },
+    {
+      "trigger": "toString\tRune.Vector().toString()",
+      "contents": "toString()"
+    }
+  ]
+}

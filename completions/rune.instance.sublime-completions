@@ -1,0 +1,79 @@
+{
+  "scope": "source.js",
+  "completions":
+  [
+    // The Rune instance
+    {
+      "trigger": "Rune\tnew Rune(options)",
+      "contents": "new Rune(${1:options})$0"
+    },
+    {
+      "trigger": "draw\trune.draw()",
+      "contents": "draw()"
+    },
+    {
+      "trigger": "line\trune.line(x1, y1. x2, y2, parent)",
+      "contents": "line(${1:x1}, ${2:y1}, ${3:x2}, ${4:y2}, ${5:parent})$0"
+    },
+    {
+      "trigger": "circle\trune.circle(x, y, radius, parent)",
+      "contents": "circle(${1:x}, ${2:y}, ${3:radius}, ${4:parent})$0"
+    },
+    {
+      "trigger": "ellipse\trune.ellipse(x, y, width, height, parent)",
+      "contents": "ellipse(${1:x}, ${2:y}, ${3:width}, ${4:height}, ${5:parent})$0"
+    },
+    {
+      "trigger": "rect\trune.rect(x, y, width, height, parent)",
+      "contents": "rect(${1:x}, ${2:y}, ${3:width}, ${4:height}, ${5:parent})$0"
+    },
+    {
+      "trigger": "triangle\trune.triangle(x1, y1, x2, y2, x3, y3)",
+      "contents": "triangle(${1:x1}, ${2:y1}, ${3:x2}, ${4:y2}, ${5:x3}, ${6:y3})$0"
+    },
+    {
+      "trigger": "polygon\trune.polygon(x, y, parent)",
+      "contents": "polygon(${1:x}, ${2:y}, ${3:parent})$0"
+    },
+    {
+      "trigger": "path\trune.path(x, y, parent)",
+      "contents": "path(${1:x}, ${2:y}, ${3:parent})$0"
+    },
+    {
+      "trigger": "text\trune.text(text, x, y, parent)",
+      "contents": "text(${0:text}, ${1:x}, ${2:y}, ${3:parent})$0"
+    },
+    {
+      "trigger": "image\trune.image(url, x, y, width, height)",
+      "contents": "image(${1:url}, ${2:x}, ${3:y}, ${4:width}, ${5:height})$0"
+    },
+    {
+      "trigger": "grid\trune.grid(options, parent)",
+      "contents": "grid(${1:options}, ${2:parent})$0"
+    },
+    {
+      "trigger": "group\trune.group(x, y, parent)",
+      "cotents": "group(${1:x}, ${2:y}, ${3:parent})$0"
+    },
+    {
+      "trigger": "play\trune.play()",
+      "contents": "play()"
+    },
+    {
+      "trigger": "plause\trune.plause()",
+      "contents": "plause()"
+    },
+    {
+      "trigger": "on\trune.on(event, callback)",
+      "contents": "on(${1:event}, ${2:callback})$0"
+    },
+    {
+      "trigger": "appendTo\trune.appendTo(container)",
+      "contents": "appendTo(${1:container})$0"
+    },
+    {
+      "trigger": "getEl\trune.getEl()",
+      "contents": "getEl()"
+    }
+  ]
+}

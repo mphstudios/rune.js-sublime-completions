@@ -1,0 +1,47 @@
+{
+  "scope": "source.js",
+  "completions":
+  [
+    // Rune.Anchor
+    {
+      "trigger": "add\tRune.Anchor().add(vector)",
+      "contents": "add(${1:vector})$0"
+    },
+    {
+      "trigger": "sub\tRune.Anchor().sub(vector)",
+      "contents": "sub(${1:vector})$0"
+    },
+    {
+      "trigger": "multiply\tRune.Anchor().multiply(scalar)",
+      "contents": "multiply(${1:scalar})$0"
+    },
+    {
+      "trigger": "copy\tRune.Shape.copy()",
+      "contents": "copy()"
+    },
+    {
+      "trigger": "setMove\tRune.Anchor().setMove(x, y)",
+      "contents": "setMove(${1:x}, ${2:y})$0"
+    },
+    {
+      "trigger": "setLine\tRune.Anchor().setLine(x, y)",
+      "contents": "setLine(${1:x}, ${2:y})$0"
+    },
+    {
+      "trigger": "setCurve\tRune.Anchor().setCurve(...)",
+      "contents": "setCurve(${1})$0"
+    },
+    {
+      "trigger": "setClose\tRune.Anchor().setClose()",
+      "contents": "setClose()"
+    },
+    {
+      "trigger": "length\tRune.Anchor().length()",
+      "contents": "length()"
+    },
+    {
+      "trigger": "vectorAt\tRune.Anchor().vectorAt(scalar)",
+      "contents": "vectorAt(${1:scalar})$0"
+    }
+  ]
+}

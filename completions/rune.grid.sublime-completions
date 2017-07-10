@@ -1,0 +1,19 @@
+{
+  "scope": "source.js",
+  "completions":
+  [
+    // Rune.Grid
+    {
+      "trigger": "Grid\tnew Rune.Grid(options)",
+      "contents": "new Rune.Grid(${1:options})$0"
+    },
+    {
+      "trigger": "add\tRune.Grid().add(child, column, row)",
+      "contents": "add(${1:child}, ${2:column}, ${3:row})$0"
+    },
+    {
+      "trigger": "getModule\tRune.Grid().getModule(column, row)",
+      "contents": "getModule(${1:column}, ${2:row})$0"
+    }
+  ]
+}

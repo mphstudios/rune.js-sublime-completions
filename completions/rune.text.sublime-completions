@@ -1,0 +1,39 @@
+{
+  "scope": "source.js",
+  "completions":
+  [
+    // Rune.Text
+    {
+      "trigger": "Text\tnew Rune.Text(text, x, y)",
+      "contents": "new Rune.Text(${1:text}, ${2:x}, ${3:y})"
+    },
+    {
+      "trigger": "fontFamily\tRune.Text().fontFamily(font)",
+      "contents": "fontFamily(${1:font})$0"
+    },
+    {
+      "trigger": "fontSize\tRune.Text().fontSize(size)",
+      "contents": "fontSize(${1:size})$0"
+    },
+    {
+      "trigger": "textAlign\tRune.Text().textAlign(align)",
+      "contents": "textAlign(${1:align})$0"
+    },
+    {
+      "trigger": "fontStyle\tRune.Text().fontStyle(style)",
+      "contents": "fontStyle(${1:style})$0"
+    },
+    {
+      "trigger": "fontWeight\tRune.Text().fontWeight(weight)",
+      "contents": "fontWeight(${1:weight})$0"
+    },
+    {
+      "trigger": "letterSpacing\tRune.Text().letterSpacing(spacing)",
+      "contents": "letterSpacing(${1:spacing})$0"
+    },
+    {
+      "trigger": "textDecoration\tRune.Text().textDecoration(textDecoration)",
+      "contents": "textDecoration(${1:textDecoration})$0"
+    }
+  ]
+}

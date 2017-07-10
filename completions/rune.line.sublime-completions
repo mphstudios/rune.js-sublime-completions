@@ -1,0 +1,11 @@
+{
+  "scope": "source.js",
+  "completions":
+  [
+    // Rune.Line
+    {
+      "trigger": "Line\tnew Rune.Line(x1, y1, x2, y2)",
+      "contents": "new Rune.Line(${1:x1}, ${2:y1}, ${3:x2}, ${4:y2})$0"
+    }
+  ]
+}

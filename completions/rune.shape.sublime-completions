@@ -1,0 +1,79 @@
+{
+  "scope": "source.js",
+  "completions":
+  [
+    // Rune Shape
+    {
+      "trigger": "move\tRune.Shape.move(x, y, relative)",
+      "contents": "move(${1:x}, ${2:y}, ${3:relative})$0"
+    },
+    {
+      "trigger": "rotate\tRune.Shape.rotate(degrees, x, y, relative)",
+      "contents": "rotate(${1:degrees}, ${2:x}, ${3:y}, ${4:relative})$0"
+    },
+    {
+      "trigger": "addTo\tRune.Shape.addTo(group)",
+      "contents": "addTo(${1:group})$0"
+    },
+    {
+      "trigger": "removeParent\tRune.Shape.removeParent()",
+      "contents": "removeParent()"
+    },
+    {
+      "trigger": "stagepos\tRune.Shape.stagepos()",
+      "contents": "stagepos()"
+    },
+
+    // all shapes
+    {
+      "trigger": "copy\tRune.Shape.copy(parent)",
+      "contents": "copy(${1:parent})$0"
+    },
+    {
+      "trigger": "scale\tRune.Shape.scale(scalar)",
+      "contents": "scale(${1:scalar})$0"
+    },
+    {
+      "trigger": "toPolygon\tRune.Shape.toPolygon(options, parent)",
+      "contents": "toPolygon(${1:options}, ${2:parent})$0"
+    },
+
+    // Rune Styles
+    {
+      "trigger": "fill\tRune.Shape.fill(Color)",
+      "contents": "fill(${1:Color})$0"
+    },
+    {
+      "trigger": "stroke\tRune.Shape.stroke(Color)",
+      "contents": "stroke(${1:Color})$0"
+    },
+    {
+      "trigger": "strokeWidth\tRune.Shape.strokeWidth(width)",
+      "contents": "strokeWidth(${1:width})$0"
+    },
+    {
+      "trigger": "strokeCap\tRune.Shape.strokeCap(type)",
+      "contents": "strokeCap(${1:type})$0"
+    },
+    {
+      "trigger": "strokeJoin\tRune.Shape.strokeJoin(type)",
+      "contents": "strokeJoin(${1:type})$0"
+    },
+    {
+      "trigger": "strokeMiterlimit\tRune.Shape.strokeMiterlimit(val)",
+      "contents": "strokeMiterlimit(${1:val})$0"
+    },
+    {
+      "trigger": "strokeDash\tRune.Shape.strokeDash(dasharray)",
+      "contents": "strokeDash(${1:dasharray})$0"
+    },
+    {
+      "trigger": "strokeDashOffset\tRune.Shape.strokeDashOffset(offset)",
+      "contents": "strokeDashOffset(${1:offset})$0"
+    },
+    {
+      "trigger": "scaleStyle\tRune.Vector().scaleStyle(scalar)",
+      "contents": "scaleStyle(${1:scalar})$0"
+    }
+  ]
+}

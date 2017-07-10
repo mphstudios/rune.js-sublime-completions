@@ -1,0 +1,23 @@
+{
+  "scope": "source.js",
+  "completions":
+  [
+    // Rune.Noise
+    {
+      "trigger": "Noise\tnew Rune.Noise()",
+      "contents": "new Rune.Noise()"
+    },
+    {
+      "trigger": "noiseDetail\tRune.Noise().noiseDetail(lod, falloff)",
+      "contents": "noiseDetail(${1:lod}, ${2:falloff})$0"
+    },
+    {
+      "trigger": "noiseSeed\tRune.Noise().noiseSeed(seed)",
+      "contents": "noiseSeed(${1:seed})$0"
+    },
+    {
+      "trigger": "get\tRune.Noise().get(x, y, z)",
+      "contents": "get(${1:x}, ${2:y}, ${3:z})$0"
+    }
+  ]
+}

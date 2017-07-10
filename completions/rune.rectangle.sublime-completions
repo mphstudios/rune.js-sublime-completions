@@ -1,0 +1,23 @@
+{
+  "scope": "source.js",
+  "completions":
+  [
+    // Rune.Rectangle
+    {
+      "trigger": "Rectangle\tnew Rune.Rectangle(x, y, width, height)",
+      "contents": "new Rune.Rectangle(${1:x}, ${2:y}, ${3:width}, ${4:height})$0"
+    },
+    {
+      "trigger": "round\tRune.Rectangle().round(x, y)",
+      "contents": "round(${1:x}, ${2:y})$0"
+    },
+    {
+      "trigger": "width\tRune.Rectangle().width(num, relative)",
+      "contents": "width(${1:num}, ${2:relative})$0"
+    },
+    {
+      "trigger": "height\tRune.Rectangle().height(num, relative)",
+      "contents": "height(${1:num}, ${2:relative})$0"
+    }
+  ]
+}

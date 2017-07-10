@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+on('${1:event}', ${2:($3) => {
+  $4
+}})
+$0
+]]></content>
+    <tabTrigger>on</tabTrigger>
+    <scope>source.js</scope>
+    <description>Rune.on(event, () => {...})</description>
+</snippet>

@@ -1,0 +1,19 @@
+{
+  "scope": "source.js",
+  "completions":
+  [
+    // Rune.Image
+    {
+      "trigger": "Image\tnew Rune.Image(url, x, y, width, height)",
+      "contents": "new Rune.Image(${1:url}, ${2:x}, ${3:y}, ${4:width}, ${5:height})$0"
+    },
+    {
+      "trigger": "width\tRune.Image.width(num, relative)",
+      "contents": "width(${1:num}, ${2:relative})$0"
+    },
+    {
+      "trigger": "height\tRune.Image.height(num, relative)",
+      "contents": "height(${1:num}, ${2:relative})$0"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+grid({
+  x: ${1:integer},
+  y: ${2:integer},
+  columns: ${3:integer},
+  rows: ${4:integer},
+  gutter: ${5:integer},
+  width: ${6:integer},
+  height: ${7:integer}
+}, {$8:parent})
+$0
+]]></content>
+    <tabTrigger>grid</tabTrigger>
+    <scope>source.js</scope>
+    <description>Rune.grid({...})</description>
+</snippet>
