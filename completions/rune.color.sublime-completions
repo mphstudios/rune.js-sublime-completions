@@ -132,37 +132,37 @@
       "contents": "lightness(${1:val})"
     },
     {
-      "trigger": "saturationv Rune.Color().saturationv(val)",
+      "trigger": "saturationv\tRune.Color().saturationv(val)",
       "contents": "saturationv(${1:val})"
     },
     {
-      "trigger": "whiteness Rune.Color().whiteness(val)",
+      "trigger": "whiteness\tRune.Color().whiteness(val)",
       "contents": "whiteness(${1:val})"
     },
     {
-      "trigger": "blackness Rune.Color().blackness(val)",
+      "trigger": "blackness\tRune.Color().blackness(val)",
       "contents": "blackness(${1:val})"
     },
     {
-      "trigger": "value Rune.Color().value(val)",
+      "trigger": "value\tRune.Color().value(val)",
       "contents": "value(${1:val})"
     },
 
     // Manipulation CMYK
     {
-      "trigger": "cyan	Rune.Color().cyan(val)",
+      "trigger": "cyan\tRune.Color().cyan(val)",
       "contents": "cyan(${1:val})"
     },
     {
-      "trigger": "magenta	Rune.Color().magenta(val)",
+      "trigger": "magenta\tRune.Color().magenta(val)",
       "contents": "magenta(${1:val})"
     },
     {
-      "trigger": "yellow	Rune.Color().yellow(val)",
+      "trigger": "yellow\tRune.Color().yellow(val)",
       "contents": "yellow(${1:val})"
     },
     {
-      "trigger": "black	Rune.Color().black(val)",
+      "trigger": "black\tRune.Color().black(val)",
       "contents": "black(${1:val})"
     },
 
