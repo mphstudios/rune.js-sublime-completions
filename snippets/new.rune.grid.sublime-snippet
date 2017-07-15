@@ -15,7 +15,7 @@ new Rune.Grid({
 })
 $0
 ]]></content>
-    <tabTrigger>Rune.Grid</tabTrigger>
+    <tabTrigger>Grid</tabTrigger>
     <scope>source.js</scope>
     <description>new Rune.Grid({...})</description>
 </snippet>

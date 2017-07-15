@@ -4,7 +4,7 @@
   [
     // Rune.Group
     {
-      "trigger": "Grid\tnew Rune.Group(x, y)",
+      "trigger": "Group\tnew Rune.Group(x, y)",
       "contents": "new Rune.Group(${1:x}, ${2:y})$0"
     },
     {
