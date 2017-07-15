@@ -1,5 +1,5 @@
-rune.js-sublime-completions
----------------------------
+Sublime Text code completions and snippets for Rune.js, http://runemadsen.github.io/rune.js, "a JavaScript library for programming graphic design systems with SVG."
 
-Package major version corresponds to the major version of Rune.js releases, https://github.com/runemadsen/rune.js/releases
+Package major version corresponds to the major version of Rune.js releases,
+https://github.com/runemadsen/rune.js/releases
 
